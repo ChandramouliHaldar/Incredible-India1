@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-seri
+    }
+header{ background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(../india.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center; }
+ul{
+    float: right;
+list-style-type: none;
+    
+}
+
+
+ul li {
+    display: inline-block;
+    margin-top: 25px;
+    }
+ul li a {
+   color: rgb(255, 251, 251);
+    text-decoration:inherit
+    color : #fff;
+    padding: 5px 20px;
+    border : 1px solid transprent;
+    transition :0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.title{ 
+    position: absolute;
+    top: 44%;
+    left:  22%;
+    border: 5px #000;
+    transform: translate(-50%,-50%); 
+}
+.title h1 { color: white;
+    font-size: 69px;
+   
+    
+}
+
+
+.button{
+    position: absolute;
+    top: 58%;
+    left:  20%;
+    border: 5px #000;
+    transform: translate(-50%,-50%); 
+      
+}
+
+.btn{ 
+    border: 1px solid #fff;
+    padding:  10px 30px;
+    color: white;
+    text-decoration: none;  
+ transition: 0.6s ease;
+    
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.logo img{
+    float: left;
+    width: 159px;
+    height: auto;
+   
+    
+    
+    
+}
+
+
+
+
+@media (max-witdth: 600px){
+    .nav .nav_btn{
+    display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+          }
+    .nav .nav_btn label{
+        display: inline-block;
+        width: 50px;
+        height: px;
+        padding: 13px;
+    }
+    .nav .nav_btn lable:hover{
+        background-color:white;
+          }
+    .nav .nav_btn lable span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #002e5b;
+        
+    }
+
+
+    h1,P:hover  {
+color:black;
+
+
+    }
+    
+    .nav .nav_links{
+        position: absolute;
+        display: block;
+        width: 100%;
+        
+        height: 0px;
+        transition: 0.3s all ease-in-out;
+        overflow-y: hidden
+         top:50px;
+        left: 0;   
+        
+    }
+    
+    .nav .nav_links a {
+        display: block;
+        width: 100%;
+        text-align: center
+    }
+    
+    
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc; 
+  border-radius: 4px;  
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+}
+body {
+    font-family: 'Saira Stencil One', cursive;
+  }
+  
+  .banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    
+    video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    h2 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      font-weight: 400;
+      font-size: 28vw;
+      text-align: center;
+      animation: anim-text-color 16s infinite linear;
+      text-transform: uppercase;
+      background-color: #ffffff;
+      mix-blend-mode: screen;
+    }
+  }
+  
+  @keyframes anim-text-color {
+    0%,
+    100% {
+      color: #36b5b0;
+    }
+    
+    20% {
+      color: #380e7f;
+    }
+    
+    40% {
+      color: #6915cf;
+    }
+    
+    60% {
+      color: #d62196;
+    }
+    
+    80% {
+      color: #6807f9;
+    }
+  }
